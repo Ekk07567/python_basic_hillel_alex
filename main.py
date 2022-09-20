@@ -10,4 +10,5 @@ else:
 print(max(a,b,c))
 
 a = input('Введите трехзначное число:')
-print(int(a[::-1]))
+reversed_number = int(a[::-1])
+print(reversed_number)
